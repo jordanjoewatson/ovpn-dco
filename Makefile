@@ -46,7 +46,7 @@ NOSTDINC_FLAGS += -DDEBUG=1
 endif
 
 obj-y += drivers/net/ovpn-dco/
-export ovpn-dco-v2-y
+export ovpn-dco-y
 
 BUILD_FLAGS := \
 	M=$(PWD) \
